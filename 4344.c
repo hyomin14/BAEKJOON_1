@@ -14,7 +14,8 @@ int main(void)
 		}
 		ave = sum / n;	
 		for(int j = 0; j < n; j++)	{
-		if (score[j] > ave)		count++;}	
+		if (score[j] > ave)		count++;}
+	
 		printf("%.3f%%\n", (double)count / n * 100);
 	}
 	return 0;
