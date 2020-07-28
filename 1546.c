@@ -9,7 +9,6 @@ int main(void)
 		scanf("%d", &score[i]);
 		if(max < score[i])		max = score[i];
 	}
-
 	for(int i = 0; i < num; i++)
 		sum += (double)score[i] / max * 100;
 

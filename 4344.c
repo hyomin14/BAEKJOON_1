@@ -8,6 +8,7 @@ int main(void)
 		double ave;
 		int score[1000];
 		scanf("%d", &n);
+
 		for(int j = 0; j < n; j++)	{	
 			scanf("%d", &score[j]);
 			sum += score[j];
