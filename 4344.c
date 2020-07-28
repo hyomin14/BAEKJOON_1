@@ -8,7 +8,6 @@ int main(void)
 		double ave;
 		int score[1000];
 		scanf("%d", &n);
-
 		for(int j = 0; j < n; j++)	{	
 			scanf("%d", &score[j]);
 			sum += score[j];
@@ -16,7 +15,7 @@ int main(void)
 		ave = sum / n;	
 		for(int j = 0; j < n; j++)	{
 		if (score[j] > ave)		count++;}
-	
+
 		printf("%.3f%%\n", (double)count / n * 100);
 	}
 	return 0;

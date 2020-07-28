@@ -11,7 +11,6 @@ int main(void)
 	}
 	for(int i = 0; i < num; i++)
 		sum += (double)score[i] / max * 100;
-
 	printf("%f", sum / num);
 	return 0;
 }
