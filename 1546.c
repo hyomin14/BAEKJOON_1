@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main(void)
-{
-	int num, max = 0;
+{	int num, max = 0;
 	int score[1000];
 	double sum = 0;
 	scanf("%d", &num);
